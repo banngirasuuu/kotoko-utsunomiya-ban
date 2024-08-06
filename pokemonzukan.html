@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="pokemon.css" />
   </head>
   <body>
-    <header>
-      <h1>
+    <header class="wrap__header">
+      <h1 class="logo__header">
         <img
           src="https://zukan.pokemon.co.jp/img/logo.svg"
           alt="ポケモンずかん"
@@ -28,31 +28,40 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <div>
-        <figure>
-          <img
-            src="https://zukan.pokemon.co.jp/zukan-api/up/images/index/17388b7f608671656716ab509ee0fa05.png"
-            alt="ゼニガメ"
-          />
-        </figure>
-        <div>
-          <h2>
-            <small> No.0007 </small>
-            <span>ゼニガメ</span>
-          </h2>
-          <p>
+    <main class="main_theme-detail">
+      <header class="header__detail">
+        <nav>
+          <ul class="nav__detail">
+            <li class="item__nav__detail is-prev">::before</li>
+            <li class="item__nav__detail is-next">::before</li>
+          </ul>
+        </nav>
+        <div class="inner__header__detail">
+          <figure class="img__mv__detail">
             <img
-              src="https://zukan.pokemon.co.jp/img/icon_male.svg"
-              alt="オス"
+              src="https://zukan.pokemon.co.jp/zukan-api/up/images/index/17388b7f608671656716ab509ee0fa05.png"
+              alt="ゼニガメ"
+              class="img"
             />
-            <img
-              src="https://zukan.pokemon.co.jp/img/icon_female.svg"
-              alt="メス"
-            />
-          </p>
+          </figure>
+          <div class="frame is-header__detail">
+            <h2>
+              <small> No.0007 </small>
+              <span>ゼニガメ</span>
+            </h2>
+            <p>
+              <img
+                src="https://zukan.pokemon.co.jp/img/icon_male.svg"
+                alt="オス"
+              />
+              <img
+                src="https://zukan.pokemon.co.jp/img/icon_female.svg"
+                alt="メス"
+              />
+            </p>
+          </div>
         </div>
-      </div>
+      </header>
     </main>
 
     <!-- ここにコンテンツが入ります -->
