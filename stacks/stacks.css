@@ -1,0 +1,9 @@
+.loginform_box {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #000;
+  position: absolute;
+  background: #fff;
+  border: solid 3px #ffcccc;
+  border-radius: 10px;
+}
